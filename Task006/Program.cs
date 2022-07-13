@@ -10,9 +10,9 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 if (number % 2 ==0)  // если число делится на два без остатка
 {
-    Console.WriteLine("Число " + number + " является чётным"); 
+    Console.WriteLine("Да, число " + number + " является чётным"); 
 }
 else
 {
-    Console.WriteLine("Число " + number + " НЕ является чётным");
+    Console.WriteLine("Нет, число " + number + " НЕ является чётным");
 }
